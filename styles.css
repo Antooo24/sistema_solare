@@ -13,27 +13,27 @@ Dimensioni medie telefono:
 */
 
 .navbar {
-  overflow: hidden;
-  background-color: #1D2D44;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.navbar a:hover {
-  background: #748CAB;
-  color: #0D1321;
-}
+    overflow: hidden;
+    background-color: #1D2D44;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #748CAB;
+    color: #0D1321;
+  }
 
 html, body {
     background: #EAE7D9;
@@ -66,19 +66,6 @@ img {
 
 a {
     cursor: pointer;
-}
-
-#img1 img {
-    width: 450px;
-    border-radius: 20px;
-    text-align: center;
-}
-
-#img1 figcaption {
-    text-align: center;
-    margin-right: 25%;
-    margin-left: 25%;
-    width: 450px;
 }
 
 .imgx3 {
@@ -122,9 +109,15 @@ h1 {
     color: #0D1321;
 }
 
+h2 {
+    margin-top: 40px;
+}
+   
+
 table {
-  width:100%;
+  width: 100%;
   border-collapse: collapse;
+  table-layout: fixed;
 }
 
 table, td, th{
